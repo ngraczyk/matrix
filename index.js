@@ -97,9 +97,9 @@ window.addEventListener('resize', function () {
 
   gradient = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, 100, canvas.width / 2, canvas.height / 2, canvas.width / 2);
   gradient.addColorStop(0, 'red');
-  gradient.addColorStop(0.2, 'yellow');
-  gradient.addColorStop(0.4, 'green');
-  gradient.addColorStop(0.6, 'cyan');
-  gradient.addColorStop(0.8, 'blue');
-  gradient.addColorStop(1, 'magenta');
-})
+  //gradient.addColorStop(0.2, 'yellow');
+  //gradient.addColorStop(0.4, 'green');
+  //gradient.addColorStop(0.6, 'cyan');
+  gradient.addColorStop(0.8, 'darkgreen');
+  gradient.addColorStop(1, '#0aff0a');
+});
